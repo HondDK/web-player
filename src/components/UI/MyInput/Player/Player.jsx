@@ -16,6 +16,7 @@ const Player = () => {
 			<button className={cl.btnPlayer}>
 				<img src={next} />
 			</button>
+			<div className="progress"></div>
 		</div>
 	);
 };
