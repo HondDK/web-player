@@ -19,11 +19,43 @@ body {
 
 .App {
 	display: flex;
-	flex-direction: column;
+	justify-content: space-between;
 }
+main {
+	display: flex;
+	flex-direction: column;
+
+	article {
+		margin-left: 15px;
+		margin-top: 15px;
+		height: 200px;
+		background-color: #4e8667;
+		width: 1000px;
+
+		.song-list {
+			display: flex;
+			width: 100%;
+			flex-direction: row;
+			justify-content: space-between;
+			.playlist-recommended {
+				width: 110px;
+				height: 125px;
+				margin-left: 15px;
+				margin-right: 15px;
+				background: #000;
+			}
+		}
+	}
+}
+
 aside {
 	display: flex;
 	flex-direction: column;
+
+	.sticky {
+		top: 0;
+		position: sticky;
+	}
 	.search {
 		width: 256px;
 		margin-left: auto;
@@ -38,7 +70,7 @@ aside {
 		margin-top: 25px;
 	}
 	.img_song {
-		width: 495;
+		width: 270px;
 		height: 266;
 		margin-left: auto;
 		margin-right: 25px;
@@ -57,7 +89,6 @@ aside {
 		transition: width 0.2s linear;
 		cursor: pointer;
 		height: 4px;
-
 		margin-left: auto;
 	}
 }
