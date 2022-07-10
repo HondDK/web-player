@@ -1,0 +1,54 @@
+$font-size: 16px;
+$font-family: arial sans-serif bold;
+$font-color: white;
+$primary-color: #444444;
+
+html,
+body,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: $font-family;
+	font-size: $font-size;
+	color: $font-color;
+	background-color: $primary-color;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+}
+aside {
+	display: flex;
+	flex-direction: column;
+	.search {
+		width: 256px;
+		margin-left: auto;
+		margin-right: 35px;
+		margin-top: 10px;
+	}
+	.button {
+		width: 266px;
+		height: 46px;
+		margin-left: auto;
+		margin-right: 25px;
+		margin-top: 25px;
+	}
+	.img_song {
+		width: 495;
+		height: 266;
+		margin-left: auto;
+		margin-right: 25px;
+		margin-top: 126px;
+	}
+	.player {
+		background-color: $primary-color;
+		margin-left: auto;
+		margin-right: 25px;
+		//margin-top: 126px;
+		
+	}
+}

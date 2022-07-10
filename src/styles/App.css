@@ -1,0 +1,49 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: arial sans-serif bold;
+  font-size: 16px;
+  color: white;
+  background-color: #444444;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+}
+aside .search {
+  width: 256px;
+  margin-left: auto;
+  margin-right: 35px;
+  margin-top: 10px;
+}
+aside .button {
+  width: 266px;
+  height: 46px;
+  margin-left: auto;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+aside .img_song {
+  width: 495;
+  height: 266;
+  margin-left: auto;
+  margin-right: 25px;
+  margin-top: 126px;
+}
+aside .player {
+  background-color: #444444;
+  margin-left: auto;
+  margin-right: 25px;
+}/*# sourceMappingURL=App.css.map */
