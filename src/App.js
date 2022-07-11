@@ -13,6 +13,7 @@ function App() {
 				<SongListBlock>Послушай сегодня</SongListBlock>
 				<SongListBlock>Популярные плейлисты</SongListBlock>
 				<SongListBlock>Послушай сегодня</SongListBlock>
+				
 			</main>
 			<Aside></Aside>
 		</div>
