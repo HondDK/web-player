@@ -1,19 +1,13 @@
 import React, { useState } from "react";
-import SongListBlock from "../../SongListBlock";
 
-const PlaylistRecommended = (props) => {
-	// const addNewPlaylist = (e) => {
-	// 	e.preventDefault();
-	// 	const newPlaylits = {
-	// 		...playlist,
-	// 		id: Date.now(),
-	// 	};
-	// 	create(newPlaylits);
-	// 	setPlaylist({ thumbnailUrl: " ", url: " " });
-	// };
-
+const PlaylistRecommended = (playlist) => {
 	return (
-		<img className="playlist-recommended" src={props.thumbnailUrl} alt=""></img>
+		<img
+			className="playlist-recommended"
+			src={playlist.thumbnailUrl}
+			id={playlist.key}
+			alt=""
+		></img>
 	);
 };
 

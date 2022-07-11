@@ -4,9 +4,9 @@ import { useFetching } from "../hooks/useFetching";
 import PlaylistRecommended from "./UI/PlaylistRecommended/PlaylisRecommended";
 import axios from "axios";
 
-const URL = "https://jsonplaceholder.typicode.com/photos?_limit=7";
-
 const SongListBlock = (props) => {
+	const URL = "https://jsonplaceholder.typicode.com/photos?_limit=7";
+
 	const [playlists, setPlaylists] = useState([]);
 
 	const [fectchPlaylists] = useFetching(async () => {
@@ -21,7 +21,6 @@ const SongListBlock = (props) => {
 
 	const listPlaylists = playlists.map((playlist) => (
 		<PlaylistRecommended
-			key={playlist.id}
 			url={playlist.url}
 			thumbnailUrl={playlist.thumbnailUrl}
 		/>
