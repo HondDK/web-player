@@ -6,7 +6,7 @@ export default class PostService {
 			"https://jsonplaceholder.typicode.com/photos",
 			{
 				params: {
-					_limit: 7,
+					_limit: 10,
 					_page: page,
 				},
 			}
